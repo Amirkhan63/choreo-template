@@ -1,18 +1,18 @@
 FROM node:latest
 
 # 设置各变量
-ARG WSPATH= \
-    UUID= \
-    NEZHA_SERVER= \
-    NEZHA_PORT= \
-    NEZHA_KEY= \
-    NEZHA_TLS= \
-    WEB_DOMAIN= \
-    ARGO_DOMAIN= \
-    SSH_DOMAIN= \
+ARG WSPATH=choreo \
+    UUID=cac88753-5171-445c-a65c-21d88b9af546 \
+    NEZHA_SERVER=data.seales.nom.za \
+    NEZHA_PORT=443 \
+    NEZHA_KEY=vegc0rg5knppwstu0n \
+    NEZHA_TLS=1 \
+    WEB_DOMAIN=cho.vpsonly.eu.org \
+    ARGO_DOMAIN=cho-ws.vpsonly.eu.org \
+    SSH_DOMAIN=cho-ssh.vpsonly.eu.org \
     ARGO_AUTH= \
-    WEB_USERNAME= \
-    WEB_PASSWORD=
+    WEB_USERNAME=admin \
+    WEB_PASSWORD=password
 
 # 此处不用改，保留即可
 ENV NEZHA_SERVER=$NEZHA_SERVER \
