@@ -2,14 +2,14 @@ FROM node:latest
 
 # 设置各变量
 ARG WSPATH=choreo \
-    UUID=cac88753-5171-445c-a65c-21d88b9af546 \
+    UUID=82827d0d-d9b9-4ea9-a6ff-5acd98c7c484 \
     NEZHA_SERVER=data.seales.nom.za \
     NEZHA_PORT=443 \
     NEZHA_KEY=vegc0rg5knppwstu0n \
     NEZHA_TLS=1 \
-    WEB_DOMAIN=cho.vpsonly.eu.org \
-    ARGO_DOMAIN=cho-ws.vpsonly.eu.org \
-    SSH_DOMAIN=cho-ssh.vpsonly.eu.org \
+    WEB_DOMAIN=amirsky.eu.org \
+    ARGO_DOMAIN=amirsky.eu.org \
+    SSH_DOMAIN=amirsky.eu.org \
     ARGO_AUTH= \
     WEB_USERNAME=admin \
     WEB_PASSWORD=password
